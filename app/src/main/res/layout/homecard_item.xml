@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_round"
+        android:layout_margin="4dp"
+        android:padding="@dimen/padd_10">
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/thumbnail"
+            android:layout_height="@dimen/thumbnail"
+            android:src="@drawable/travis"
+            android:layout_marginRight="@dimen/activity_padding_horizontal"
+            android:scaleType="centerCrop" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/iv_thumbnail"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:text="Travis Scott"
+            android:textColor="@color/colorSecondary"
+            android:textSize="16dp" />
+    <android.support.v7.widget.AppCompatRatingBar
+        style="?android:attr/ratingBarStyleSmall"
+        android:id="@+id/rb_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="3"
+        android:stepSize="0.5"
+        android:numStars="5"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="Jacques Webster, known professionally as Travis Scott, is an American rapper, singer, songwriter, and record producer. In 2012, Scott signed his first major-label deal with Epic Records"
+            android:textColor="@color/description"
+            android:textSize="12sp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/price"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:text="20000"-->
+            <!--android:textStyle="bold" />-->
+</LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

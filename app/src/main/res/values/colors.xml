@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1d1e30</color>
+    <color name="colorPrimaryDark">#11111d</color>
+    <color name="colorAccent">#f2d123</color>
+    <color name="colorSecondary">#4a64ea</color>
+
+    <color name="colorTransparent">#00ff4081</color>
+
+    <color name="colorToolBar">#d41d1e30</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+</resources>

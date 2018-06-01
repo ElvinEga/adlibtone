@@ -1,0 +1,43 @@
+[
+    {
+      "name":"Travis Scott",
+      "description":"Jacques Webster, known professionally as Travis Scott, is an American rapper, singer, songwriter, and record producer. In 2012, Scott signed his first major-label deal with Epic Records.",
+      "image":"travis",
+      "rating":5,
+      "date":"2/2/2018"
+    },{
+      "name":"Migos",
+      "description":"Migos is an American hip hop trio from Lawrenceville, Georgia, formed in 2009. The trio is composed of three rappers, known by their stage names Quavo, Offset, and Takeoff.",
+      "image":"migos",
+      "rating":5,
+      "date":"2/2/2018"
+    },{
+      "name":"Metro Booming",
+      "description":"Metro is an American record producer, record executive, songwriter, and DJ Embarking on a production career in the 2010s, he is best known for his successful collaborations with rap artists such as Future, 21 Savage, Gucci Mane, Migos,",
+      "image":"metro",
+      "rating":4.5,
+      "date":"2/2/2018"
+    },{
+      "name":"Future",
+      "description":"Future is an American rapper, singer, songwriter, and record producer. Born and raised in Atlanta, Georgia, Wilburn first became involved in music as part of the Dungeon Family collective, where he was nicknamed \"the Future\".",
+      "image":"future",
+      "rating":4,
+      "date":"2/2/2018"
+    },
+    {
+      "name":"21 Savage",
+      "description":"21 Savage, is an American rapper. He received attention for projects such as Free Guwop as well as Savage Mode before going on to release his debut album, Issa Album, in 2017.",
+      "image":"savage21",
+      "rating":2.5,
+      "date":"2/2/2018"
+    },
+    {
+      "name":"Elvin Ega",
+      "description":"Elvin Ega is a  a Kenyan  Record Producer, Singer , Rapper and Song writer .He a bread of new generation of African Musician that blend african tunes with modern songs",
+      "image":"elvin",
+      "rating":2.7,
+      "date":"2/2/2018"
+    }]
+
+
+
