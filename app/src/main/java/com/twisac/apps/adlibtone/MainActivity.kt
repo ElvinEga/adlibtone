@@ -93,12 +93,29 @@ class MainActivity : AppCompatActivity() {
             override fun run() {
                 val items = headerAdapter.itemCount
 
-                when { ty.compareTo(headerAdapter.itemCount) < 0 -> {
+               /* when { ty.compareTo(headerAdapter.itemCount) < 0 -> {
                     rv_top.smoothScrollToPosition(ty)
                     ty.inc()
                 }
                     ty.equals(items) -> ty = 0
+                }*/
+
+
+              /*  if (ty.compareTo(headerAdapter.itemCount) < 0) {
+                    rv_top.smoothScrollToPosition(ty)
+                    ty.inc()
+
+                    if (ty == items) ty = 0
+                }*/
+                if (ty < headerAdapter.itemCount) {
+
+                    rv_top.smoothScrollToPosition(ty)
+                    ty++
+
+                    if (ty == items) ty = 0
                 }
+
+
             }
         }
         val timer = Timer()
